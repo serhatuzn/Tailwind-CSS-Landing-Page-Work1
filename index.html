@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <title>Landing Page</title>
+  </head>
+  <body>
+     <!-- Navbar -->
+    <nav class="bg-white shadow-md p-3 flex justify-between items-center">
+        <!-- Sol taraftaki logo -->
+        <div class="w-10 h-auto">
+            <img src="assets/images/MambaLogo.avif" alt="logo">
+        </div>
+         <!-- Sağdaki Linkler -->
+        <div class="flex tems-center ml-410 gap-3 text-gray-700 font-bold">
+            <a href="">link</a>
+            <a href="">link</a>
+            <a href="">link</a>
+        </div>
+        <!-- Sağ taraftaki SignUp butonu -->
+         <div class="bg-purple-500 text-white px-2 py-2 rounded font-bold">
+            <button>
+                Kayıt Ol
+            </button>
+         </div>
+    </nav>
+        <!-- Hero Section -->
+        <section class="max-w-6xl mx-auto px-6 lg:px-8 py-16 grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+        
+            <!-- Sol taraftaki form ve başlık -->
+            <div class="bg-white p-8 shadow-lg rounded-lg">
+                <h4 class="text-purple-500 font-semibold">Mamba design system</h4>
+                <h1 class="text-3xl font-bold mt-2">Build it with Mamba</h1>
+                <p class="text-gray-600 mt-2">Modular and versatile. The ultimate design toolkit for savvy technology startups.</p>
+                
+                <form class="mt-4 space-y-4">
+                    <input type="text" placeholder="Your name" class="w-full px-4 py-2 border rounded-lg">
+                    <input type="email" placeholder="Email address" class="w-full px-4 py-2 border rounded-lg">
+                    <button class="w-full bg-purple-500 text-white py-2 rounded-lg hover:bg-purple-600">
+                        Join the waitlist
+                    </button>
+                </form>
+            </div>
+    
+            <!-- Sağ tarafta bir görsel -->
+            <div>
+                <img src="assets/images/Merdiven.jpg" alt="Stairs" class="rounded-lg shadow-md">
+            </div>
+    
+        </section>
+    
+        <!-- "How it Works" Bölümü -->
+        <section class="max-w-6xl mx-auto px-6 lg:px-8 py-16 text-center">
+            <h4 class="text-purple-500 font-semibold">HOW IT WORKS</h4>
+            <h2 class="text-3xl font-bold mt-2">Building with Mamba is simple</h2>
+    
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mt-8">
+                <!-- İlk kutu -->
+                <div class="bg-white p-6 rounded-lg shadow-md text-left">
+                    <div class="flex items-center space-x-2">
+                        <span class="bg-purple-500 text-white px-3 py-1 rounded-full">1</span>
+                        <h3 class="font-bold">Nulla.</h3>
+                    </div>
+                    <p class="text-gray-600 mt-2">Nostrum, corrupti blanditiis. Illum, architecto?</p>
+                </div>
+    
+                <!-- İkinci kutu -->
+                <div class="bg-white p-6 rounded-lg shadow-md text-left">
+                    <div class="flex items-center space-x-2">
+                        <span class="bg-purple-500 text-white px-3 py-1 rounded-full">2</span>
+                        <h3 class="font-bold">Accusantium.</h3>
+                    </div>
+                    <p class="text-gray-600 mt-2">Vitae saepe atque neque sunt eius dolor veniam alias debitis?</p>
+                </div>
+    
+                <!-- Üçüncü kutu -->
+                <div class="bg-white p-6 rounded-lg shadow-md text-left">
+                    <div class="flex items-center space-x-2">
+                        <span class="bg-purple-500 text-white px-3 py-1 rounded-full">3</span>
+                        <h3 class="font-bold">Maxime.</h3>
+                    </div>
+                    <p class="text-gray-600 mt-2">Expedita temporibus culpa reprehenderit doloribus consectetur odio!</p>
+                </div>
+            </div>
+        </section>
+    
+        <!-- Testimonial (Müşteri Yorumu) Bölümü -->
+        <section class="max-w-6xl mx-auto px-6 lg:px-8 py-16 grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+            <!-- Sol tarafta bir görsel -->
+            <div>
+                <img src="assets/images/city.jpg" alt="City" class="rounded-lg shadow-md">
+            </div>
+    
+            <!-- Sağ tarafta müşteri yorumu -->
+            <div class="bg-white p-8 shadow-lg rounded-lg text-center">
+                <div class="bg-gray-200 w-12 h-12 flex items-center justify-center rounded-full mx-auto">
+                    💬
+                </div>
+                <p class="text-gray-600 italic mt-4">
+                    "Et, dignissimos occaecati. Recusandae praesentium doloribus vitae? Rem unde atque mollitia!"
+                </p>
+                <h4 class="font-bold mt-4">Leroy Jenkins</h4>
+                <p class="text-gray-500 text-sm">CEO of Company Co.</p>
+            </div>
+        </section>
+
+        <section class="bg-gray-100 p-8 shadow-lg rounded-lg w-430 h-auto mx-auto text-left">
+            <div class="space-y-4">
+                <h1 class="font-bold text-4xl ">Create With Us</h1>
+                <p class="text-gray-700 leading-relaxed">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Blanditiis libero consequuntur sit molestiae molestias dolorum totam quae. 
+                    Quas explicabo ipsam reprehenderit aperiam nam architecto voluptatem tempore temporibus, nihil unde a.
+                </p>
+            </div>
+        </section>
+        
+  </body>
+</html>
