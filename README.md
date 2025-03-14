@@ -4,7 +4,7 @@ Bu proje, **Tailwind CSS** kullanarak oluşturulmuş **modern ve şık bir açı
 Kullanıcı dostu bir arayüze sahip olup, **teknoloji startup'ları ve tasarım sistemleri** için harika bir temel sunar.  
 
 ## 🖥️ Canlı Önizleme  
-🚀 [Demo Linki](#) (Eğer deploy edersen buraya link ekleyebilirsin!)
+🚀 Projeyi Canlı Önizlemek istersen Clonelamalısın :)
 
 ## 📌 Özellikler
 ✅ **Duyarlı (Responsive) Tasarım** - Mobil ve masaüstü uyumludur.  
@@ -16,8 +16,8 @@ Kullanıcı dostu bir arayüze sahip olup, **teknoloji startup'ları ve tasarım
 
 ## 📸 Görseller
 ### **Ana Sayfa Tasarımı**
-![Mamba Landing Page](assets/images/home1.jpg)
-![Mamba Landing Page](assets/images/home2.jpg)
+![Mamba Landing Page](assets/images/home1.png)
+![Mamba Landing Page](assets/images/home2.png)
 
 ## 🛠️ Kullanılan Teknolojiler
 - **HTML5**  
